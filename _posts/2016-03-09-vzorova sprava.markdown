@@ -7,4 +7,4 @@ categories: jekyll update
 Moja vlastna sprava.. Odkaz: [Click me!]
 
 
-[Click me!]: dsl.sk
+[Click me!]: http://dsl.sk
