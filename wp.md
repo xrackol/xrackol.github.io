@@ -3,12 +3,8 @@ layout: page
 title: Webove publikovanie
 permalink: /wp/
 ---
-<b>Názov projektu:</b> Projekt č.1<br/>
-<b>Dátum:</b> 14.1.2016<br/>
-<b>Popis:</b> Lorem Ipsum je fiktívny text, používaný pri návrhu tlačovín a typografie. Lorem Ipsum je štandardným výplňovým textom už od 16. storočia, keď neznámy tlačiar.<br/>
-<b>Odkaz na stiahnutie:</b> <a href="../data/wp1.zip" target="_blank">{{ "LINK na subor WP1.zip" | slugify: 'pretty' }}</a><br/>       
+<b>Zadanie 1:</b> Osobná webová prezentácia na GitHub pages<br/>
+<b>Dátum:</b> 13.3.2016<br/>
+<b>Popis:</b> Vytvorte webovú prezentáciu (webové sídlo) o sebe. Zamerajte sa jednak na vaše profesné záujmy (napr. projekty, ktoré riešite/riešili ste, čo vás v informatike najviac baví, fascinuje = váš developerský profil) a jednak vaše osobné záujmy, hobby..<br/>
+<b>Odkaz na stiahnutie:</b> <a href="../data/Z1-xrackol.zip" target="_blank">{{ "LINK na subor Z1-xrackol.zip" | slugify: 'pretty' }}</a><br/>       
 <hr class="post">
-<b>Názov projektu:</b> Projekt č.2<br/>
-<b>Dátum:</b> 15.1.2016<br/>
-<b>Popis:</b> Lorem Ipsum je fiktívny text, používaný pri návrhu tlačovín a typografie. Lorem Ipsum je štandardným výplňovým textom už od 16. storočia, keď neznámy tlačiar.<br/>
-<b>Odkaz na stiahnutie:</b> <a href="../data/wp1.zip" target="_blank">{{ "LINK na subor WP1.zip" | slugify: 'pretty' }}</a><br/>
