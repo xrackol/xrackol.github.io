@@ -1,0 +1,12 @@
+- text: Home
+  url: /
+- text: CV
+  url: /cv2/
+- text: Novinky
+  url: /news/
+- text: O mne
+  url: /omne/
+- text: Projekty
+  url: /projekty/
+- text: Webove publikovanie
+  url: /wp/

@@ -2,22 +2,24 @@
 
   <div class="wrapper">
 
-    <img src="http://localhost:4000/img/mclrn.jpg" alt="logo" id="logo" />
+    <img src="{{"/img/mclrn.jpg" | prepend: site.url }}" alt="logo" id="logo" />
 
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+          
 
     <nav class="site-nav">
+    
+      {% include nav.html nav=site.data.menu %}
 
-
-      <div class="trigger">
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-      </div>
-    </nav>
-
+                 
+    </nav> 
+    
+ 
+    
+                      
   </div>
-
+  
+  <div class="wrapper"><b>{{ site.time | date: '%H:%M, %d.%m.%Y'}}</b></div>
+  
+  
 </header>

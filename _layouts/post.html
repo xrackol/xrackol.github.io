@@ -3,23 +3,30 @@ layout: default
 ---
 
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
+  <div class="moj_kontajner">
+  
+    <div class="lava_strana"><a href="{{ "/news/" | prepend: site.baseurl }}">Príspevky podľa dátumu</a><br /></div>
+    <div class="prava_strana"><a href="{{ "/news2/" | prepend: site.baseurl }}">Príspevky podľa kategórie</a><br /></div>
+    
+  </div>
+  <h1 class="page-heading">Novinky</h1>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <!-- <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>      -->
+        <span class="post-meta">{{ post.date | date: '%A, %d.%m.%Y, %H:%M'}}
 
         <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
+        
       </li>
       <hr class="post">  
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">Prihláste sa na odber <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
 
 </div>
 
