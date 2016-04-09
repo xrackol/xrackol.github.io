@@ -30,14 +30,78 @@ permalink: /wp/
   {% endhighlight %}
 - Na konci dokumentu je zoznam použitej literatúry. V texte sa nachádzajú citácie ktoré priamo odkazujú na konkrétny záznam v bibliografií.
   {% highlight java %}
-Vytvorenie záznamu v bibliografií:
+- Vytvorenie zaznamu v bibliografii:
+<br/>
     <bibliomixed id="bib.orgonas">ORGONÁŠ, J.: <title>Všetko o Wi-Fi / 1. časť, PC Revue 07/2009</title>
       <bibliomisc>Dostupný na: 
         <ulink url="http://www.itnews.sk/tituly/pc-revue/clanky/2009-07-07/c1185-vsetko-o-wi-fi-1.-cast"></ulink>
       </bibliomisc>
     </bibliomixed>
-- Citovanie na konkrétne dielo v bibliografií:
+<br/>
+- Citovanie na konkretne dielo v bibliografii:
+- <br/>
 <xref linkend="bib.niso"/>
+  {% endhighlight %}
+- V dokumente sa nachádzajú viaceré obrázky a tabuľka, vrátane odkazov, ktoré odkazujú buď priamo na daný objekt, alebo mierne pred obrázok - aby bolo po kliknutí na odkaz vidno aj popis vzorca, ktorý je na obrázku.
+  {% highlight java %}
+- Pridanie obrazku do dokumentu:
+- <br/>
+          <figure id="trilateracia" xreflabel="Trilaterácia"><title>Trilaterácia</title>
+          <mediaobject>
+            <imageobject>
+              <imagedata fileref="trilateracia.png"/>
+            </imageobject>
+            <textobject><phrase></phrase></textobject>
+          </mediaobject>
+          </figure><br/>
+- odkaz k obrazku: 
+<xref linkend="trilateracia"/>
+<br/>
+- Vytvorenie trojstlpcovej tabulky s prehladom pojmov v zavere dokumentu:
+- <br/>
+<table frame='all'  id="tabulka" xreflabel="tabuľke"><title>Prehľad</title>
+<tgroup cols='3' align='left' colsep='1' rowsep='1'>
+<colspec colname='colname 1'/>
+<colspec colname='colname 2'/>
+<colspec colname='colname 3'/>
+<colspec colname='colname 4'/>
+
+<thead>
+<row>
+  <entry>Metódy lokalizácie</entry>
+  <entry>Knižničné protokoly</entry>
+  <entry>Existujúce riešenia</entry>
+</row>
+</thead>
+<tbody>
+<row>
+  <entry>WiFi Fingerprinting</entry>
+  <entry>Z39.50</entry>
+  <entry>COEX Soul, WiFi fingerprinting</entry>
+</row>
+<row>
+  <entry>Trilaterácia</entry>
+  <entry>SIP2</entry>
+  <entry>WiFi Fingerprinting a PDR</entry>
+</row>
+<row>
+  <entry>Bluetooth</entry>
+  <entry>NCIP</entry>
+  <entry>Spracovanie obrazu a trilaterácia</entry>
+</row>
+<row>
+  <entry>PDR</entry>
+  <entry></entry>
+  <entry></entry>
+</row>
+
+</tbody>
+</tgroup>
+</table>
+<br/>
+- Odkaz na tabulku v texte:
+<xref linkend="tabulka"/>
+
   {% endhighlight %}
 <br/>
 <b>Odkaz na stiahnutie:</b> <a href="../data/Z1-xrackol.zip" target="_blank">{{ "LINK na subor Z1-xrackol.zip" | slugify: 'pretty' }}</a><br/>       
