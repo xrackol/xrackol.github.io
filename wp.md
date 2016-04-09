@@ -13,7 +13,7 @@ permalink: /wp/
 <b>Popis:</b> Predmetom 2. zadania je spracovanie vybraného dokumentu (ideálne bakalárskeho projektu) z pôvodného ľubovoľného (Word, OpenOffice, LaTeX, …) formátu do formátu DocBook a vygenerovanie cieľového tvaru v PDF. Výsledný dokument bude mať rozsah minimálne 10 a maximálne 15 strán. Do rozsahu sa nezapočítavajú úvodné strany (obsah, zoznamy obrázkov a tabuliek), použitá literatúra a prílohy.<br/>
 <b>Správa o zadaní:</b> Zadanie bolo vypracované v DocBooku na základe poskytnutého vzorového riešenia od Jiřího Koska. Predlohou pre tento projekt bola moja bakalárska práca, z ktorej boli vybrané okrem úvodných strán kapitoly Úvod a časť Analýzy. <br/>
 - Text bol organizovaný do kapitol, sekcií a niekoľkých stupňov podsekcií tak, aby výsledný dokument korešpondoval s predlohou. V rámci sekcií bol text rozdelený do paragrafov. Na zvýraznenie textu sa používali atribúty umožnujúce tučné písmo, číslované aj nečíslované odrážky. <br/>Použité elementy:
-  {% highlight java %}
+  {% highlight xml %}
   <chapter> - kapitola
   <section> - sekcia
   <para> - odstavec
