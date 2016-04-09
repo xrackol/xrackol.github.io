@@ -24,8 +24,20 @@ permalink: /wp/
 <br/>
 - V texte sa nachádzajú odkazy na iné časti dokumentu, na obrázky, popis vzorcov v texte a podobne. Pri neznámych pojmoch a skratkách sú pridané poznámky pod čiarou.
   {% highlight java %}
-  K vybranym elementom v texte su pridane atributy - <literallayout id="nazov" xreflabel="popis">, a referencia na dany element: <xref linkend="nazov"/>
- Poznamky pod ciarou - <footnote><para>Text pod ciarou</para></footnote>
+ <literallayout id="nazov" xreflabel="popis"> -  k vybranym elementom v texte su pridane taketo atributy
+ <xref linkend="nazov"/> - referencia na dany element
+ <footnote><para>Text pod ciarou</para></footnote> - poznamky pod ciarou
+  {% endhighlight %}
+- Na konci dokumentu je zoznam použitej literatúry. V texte sa nachádzajú citácie ktoré priamo odkazujú na konkrétny záznam v bibliografií.
+  {% highlight java %}
+Vytvorenie záznamu v bibliografií:
+    <bibliomixed id="bib.orgonas">ORGONÁŠ, J.: <title>Všetko o Wi-Fi / 1. časť, PC Revue 07/2009</title>
+      <bibliomisc>Dostupný na: 
+        <ulink url="http://www.itnews.sk/tituly/pc-revue/clanky/2009-07-07/c1185-vsetko-o-wi-fi-1.-cast"></ulink>
+      </bibliomisc>
+    </bibliomixed>
+- Citovanie na konkrétne dielo v bibliografií:
+<xref linkend="bib.niso"/>
   {% endhighlight %}
 <br/>
 <b>Odkaz na stiahnutie:</b> <a href="../data/Z1-xrackol.zip" target="_blank">{{ "LINK na subor Z1-xrackol.zip" | slugify: 'pretty' }}</a><br/>       
