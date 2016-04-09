@@ -106,8 +106,34 @@ permalink: /wp/
 - Odkaz na tabulku v texte:
 {% highlight xml %}
 <xref linkend="tabulka"/>
-
   {% endhighlight %}
-<br/>
+ - Na začiatku dokumentu bol vytvorený viacúrovňový register pojmov, ktorý obsahuje základné pojmy, ktoré sú bližšie rozobraté v texte
+ - Na začiatku dokumentu je vložený automaticky generovaný register pojmov, obsahuje len názov:
+ {% highlight xml %}
+<index>
+  <title>Register pojmov</title>
+</index>
+  {% endhighlight %}
+- Samotné položky do registra pojmov"
+{% highlight xml %}
+<indexterm>
+   <primary>Možnosti lokalizácie:</primary>
+   <secondary>WiFi Fingerprinting</secondary>
+   <tertiary>Metóda: Algoritmus najbližšieho suseda</tertiary>
+</indexterm>
+  {% endhighlight %}
+
+- Okrem registra pojmov bol vytvorený aj slovník pojmov, kde sú neznáme pojmy vysvetlené, vloženie jedného záznamu do slovníka pojmov:
+{% highlight xml %}
+<glossary><title>Slovník pojmov</title>
+
+<glossentry id="xml"><glossterm><emphasis role="bold">WiFi Fingerprinting</emphasis></glossterm>
+<glossdef>
+  <para>metóda používaná pri navigácií založená na porovnávaní intenzít signálov bezdrôtových sietí, nameraných v reálnom čase, s mapou signálov vytvorenou pred spustením navigácie.<?vskip 1pt?></para>
+</glossdef>
+</glossentry>
+</glossary>
+  {% endhighlight %}
+
 <b>Odkaz na stiahnutie:</b> <a href="../data/Z1-xrackol.zip" target="_blank">{{ "LINK na subor Z1-xrackol.zip" | slugify: 'pretty' }}</a><br/>       
 <hr class="post">
