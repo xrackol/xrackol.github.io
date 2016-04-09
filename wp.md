@@ -141,6 +141,7 @@ permalink: /wp/
 -> Bol zmenený počet stĺpcov v registri pojmov na 1<br/>
 -> Pridaný zoznam obrázkov a tabuliek<br/>
 -> Bolo pridané logo STU FIIT na titulnú stranu dokumentu<br/>
+-> Zakázanie zalamovania textu v nadpisoch <br/>
 -> Drobné graficke úpravy, okraje...<br/>
 <b>Odkaz na stiahnutie:</b> <a href="../data/Z1-xrackol.zip" target="_blank">{{ "LINK na subor Z1-xrackol.zip" | slugify: 'pretty' }}</a><br/>       
 <hr class="post">
