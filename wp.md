@@ -23,13 +23,13 @@ permalink: /wp/
   {% endhighlight %}
 <br/>
 - V texte sa nachádzajú odkazy na iné časti dokumentu, na obrázky, popis vzorcov v texte a podobne. Pri neznámych pojmoch a skratkách sú pridané poznámky pod čiarou.
-  {% highlight java %}
+  {% highlight xml %}
  <literallayout id="nazov" xreflabel="popis"> -  k vybranym elementom v texte su pridane taketo atributy
  <xref linkend="nazov"/> - referencia na dany element
  <footnote><para>Text pod ciarou</para></footnote> - poznamky pod ciarou
   {% endhighlight %}
 - Na konci dokumentu je zoznam použitej literatúry. V texte sa nachádzajú citácie ktoré priamo odkazujú na konkrétny záznam v bibliografií.
-  {% highlight java %}
+  {% highlight xml %}
 - Vytvorenie zaznamu v bibliografii:
 <br/>
     <bibliomixed id="bib.orgonas">ORGONÁŠ, J.: <title>Všetko o Wi-Fi / 1. časť, PC Revue 07/2009</title>
@@ -43,9 +43,8 @@ permalink: /wp/
 <xref linkend="bib.niso"/>
   {% endhighlight %}
 - V dokumente sa nachádzajú viaceré obrázky a tabuľka, vrátane odkazov, ktoré odkazujú buď priamo na daný objekt, alebo mierne pred obrázok - aby bolo po kliknutí na odkaz vidno aj popis vzorca, ktorý je na obrázku.
-  {% highlight java %}
 - Pridanie obrazku do dokumentu:
-- <br/>
+  {% highlight xml %}
           <figure id="trilateracia" xreflabel="Trilaterácia"><title>Trilaterácia</title>
           <mediaobject>
             <imageobject>
@@ -53,12 +52,16 @@ permalink: /wp/
             </imageobject>
             <textobject><phrase></phrase></textobject>
           </mediaobject>
-          </figure><br/>
+          </figure>
+  {% endhighlight %}
 - odkaz k obrazku: 
+{% highlight xml %}
 <xref linkend="trilateracia"/>
+{% endhighlight %}
 <br/>
 - Vytvorenie trojstlpcovej tabulky s prehladom pojmov v zavere dokumentu:
-- <br/>
+<br/>
+{% highlight xml %}
 <table frame='all'  id="tabulka" xreflabel="tabuľke"><title>Prehľad</title>
 <tgroup cols='3' align='left' colsep='1' rowsep='1'>
 <colspec colname='colname 1'/>
@@ -98,8 +101,10 @@ permalink: /wp/
 </tbody>
 </tgroup>
 </table>
+  {% endhighlight %}
 <br/>
 - Odkaz na tabulku v texte:
+{% highlight xml %}
 <xref linkend="tabulka"/>
 
   {% endhighlight %}
