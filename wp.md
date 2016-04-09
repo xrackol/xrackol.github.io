@@ -143,5 +143,5 @@ permalink: /wp/
 -> Bolo pridané logo STU FIIT na titulnú stranu dokumentu<br/>
 -> Zakázanie zalamovania textu v nadpisoch <br/>
 -> Drobné graficke úpravy, okraje...<br/>
-<b>Odkaz na stiahnutie:</b> <a href="../data/Z1-xrackol.zip" target="_blank">{{ "LINK na subor Z1-xrackol.zip" | slugify: 'pretty' }}</a><br/>       
+<b>Odkaz na stiahnutie:</b> Toto zadanie je odovzdané len do AIS. <br/>       
 <hr class="post">
