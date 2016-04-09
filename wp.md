@@ -37,9 +37,10 @@ permalink: /wp/
         <ulink url="http://www.itnews.sk/tituly/pc-revue/clanky/2009-07-07/c1185-vsetko-o-wi-fi-1.-cast"></ulink>
       </bibliomisc>
     </bibliomixed>
+  {% endhighlight %}
 <br/>
 - Citovanie na konkretne dielo v bibliografii:
-- <br/>
+  {% highlight xml %}
 <xref linkend="bib.niso"/>
   {% endhighlight %}
 - V dokumente sa nachádzajú viaceré obrázky a tabuľka, vrátane odkazov, ktoré odkazujú buď priamo na daný objekt, alebo mierne pred obrázok - aby bolo po kliknutí na odkaz vidno aj popis vzorca, ktorý je na obrázku.
