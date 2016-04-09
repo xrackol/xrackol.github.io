@@ -17,12 +17,16 @@ permalink: /wp/
   <chapter> - kapitola
   <section> - sekcia
   <para> - odstavec
-  <emphasis role="bold"> - tučné písmo
-  <itemizedlist> - neoznačené odrážky
-  <orderedlist> - označené odrážky
+  <emphasis role="bold"> - tucne pismo
+  <itemizedlist> - neoznacene odrazky
+  <orderedlist> - oznacene odrazky
   {% endhighlight %}
 <br/>
-- 
+- V texte sa nachádzajú odkazy na iné časti dokumentu, na obrázky, popis vzorcov v texte a podobne. Pri neznámych pojmoch a skratkách sú pridané poznámky pod čiarou.
+  {% highlight java %}
+  K vybranym elementom v texte su pridane atributy - <literallayout id="nazov" xreflabel="popis">, a referencia na dany element: <xref linkend="nazov"/>
+ Poznamky pod ciarou - <footnote><para>Text pod ciarou</para></footnote>
+  {% endhighlight %}
 <br/>
 <b>Odkaz na stiahnutie:</b> <a href="../data/Z1-xrackol.zip" target="_blank">{{ "LINK na subor Z1-xrackol.zip" | slugify: 'pretty' }}</a><br/>       
 <hr class="post">
