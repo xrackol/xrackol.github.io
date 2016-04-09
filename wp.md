@@ -135,6 +135,12 @@ permalink: /wp/
 </glossentry>
 </glossary>
   {% endhighlight %}
+- Za účelom vylepšenia celkového vzhľadu a napodobnenia predlohy bolo vykonaných niekoľko malých zmien v XML/XSLT šablóne. 
+-> Bol odstránený popis - "Kapitola N", ktorý bol na začiatku každej kapitoly
+-> Bol zmenený počet stĺpcov v registri pojmov na 1
+-> Pridaný zoznam obrázkov a tabuliek
+-> Bolo pridané logo STU FIIT na titulnú stranu dokumentu
+-> Drobné graficke úpravy, okraje...
 
 <b>Odkaz na stiahnutie:</b> <a href="../data/Z1-xrackol.zip" target="_blank">{{ "LINK na subor Z1-xrackol.zip" | slugify: 'pretty' }}</a><br/>       
 <hr class="post">
