@@ -152,6 +152,6 @@ Navrhnite a vytvorte XSLT šablóny pre konverziu prezentácie z XML do XHTML+CS
 <b>Správa o zadaní:</b> Zadanie bolo vypracované v obmedzenej verzií, pozostávajúcej zo zadefinovania štruktúry XML dokumentu pomocou DTD, vytvorenia vzorových slide-ov pre každý známy typ slide-u a xsl transformácií, ktoré dokážu prekonvertovať XML súbor na formátovaný HTML súbor. Jednotlivé XML súbory nie je v tejto verzií zadania možné prekonvertovať do formátu PDF.
 <br/>
 <br/>
-V prezentácií sa rozlišujú tri typy slidov: Úvodný, Štandardný a Záverečný. Pre každý z nich je možné zadefinovať atribúty ako <autor>, <nadpis>, <detail>, <odstavec>, <odrazky>.<br/> Podľa zvoleného typu slide-u sa tieto elementy naformátujú podľa transformačných šablón, zadefinovaných v súbore transformácie.xsl.
+V prezentácií sa rozlišujú tri typy slidov: Úvodný, Štandardný a Záverečný. Pre každý z nich je možné zadefinovať atribúty ako &lt;autor&gt;, &lt;nadpis&gt;, &lt;detail&gt;, &lt;odstavec&gt;, &lt;odrazky&gt;.<br/> Podľa zvoleného typu slide-u sa tieto elementy naformátujú podľa transformačných šablón, zadefinovaných v súbore transformácie.xsl.
 <br/>
 <b>Odkaz na stiahnutie:</b> <a href="../data/Z3-xrackol.zip" target="_blank">{{ "LINK na subor Z3-xrackol.zip" | slugify: 'pretty' }}</a><br/>
