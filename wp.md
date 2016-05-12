@@ -148,7 +148,7 @@ permalink: /wp/
 <b>Zadanie 3:</b> Osobná webová prezentácia na GitHub pages<br/>
 <b>Dátum:</b> 12.5.2016<br/>
 <b>Popis:</b> Analyzujte možnosti zápisu jednoduchej prezentácie v jazyku XML. Identifikujte základné súčasti prezentácie a navrhnite XML elementy pre ich označkovanie (metadátové, štrukturálne, inline). Dbajte na znovupoužiteľnosť a vyvarujte sa redundancií. Návrh elementov zrealizujte opísaním typu dokumentu pomocou vybraného jazyka (DTD, XSD, RELAX NG) spolu s vysvetlením účelu jednotlivých elementov. Vo vami navhrnutom jazyku vytvorte ukážkovú prezentáciu, ktorá bude demonštrovať možnosti tvorby prezentácií podľa definície typu dokumentu.<br/><br/>
-Navrhnite a vytvorte XSLT šablóny pre konverziu prezentácie z XML do XHTML+CSS a pre konverziu prezentácie z XML do PDF. Klaďte dôraz na znovupoužitie jednotlivých šablon pre viaceré výstupné formáty. Umožnite zadávanie parametrov transformácií.<br/>
+Navrhnite a vytvorte XSLT šablóny pre konverziu prezentácie z XML do XHTML+CSS a pre konverziu prezentácie z XML do PDF. Klaďte dôraz na znovupoužitie jednotlivých šablon pre viaceré výstupné formáty. Umožnite zadávanie parametrov transformácií.<br/><br/>
 <b>Správa o zadaní:</b> Zadanie bolo vypracované v obmedzenej verzií, pozostávajúcej zo zadefinovania štruktúry XML dokumentu pomocou DTD, vytvorenia vzorových slide-ov pre každý známy typ slide-u a xsl transformácií, ktoré dokážu prekonvertovať XML súbor na formátovaný HTML súbor. Jednotlivé XML súbory nie je v tejto verzií zadania možné prekonvertovať do formátu PDF.
 <br/>
 <br/>
